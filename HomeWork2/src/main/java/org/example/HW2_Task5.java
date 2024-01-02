@@ -31,3 +31,4 @@ public class HW2_Task5 {
         System.out.println(result);
     }
 }
+
