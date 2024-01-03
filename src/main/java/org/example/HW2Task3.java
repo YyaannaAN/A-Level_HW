@@ -1,6 +1,6 @@
 package org.example;
 
-public class HW2_Task3 {
+public class HW2Task3 {
     public static void main(String[] args) {
         isEven(2);
         isEven(3);
