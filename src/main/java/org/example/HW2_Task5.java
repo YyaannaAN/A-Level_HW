@@ -12,10 +12,10 @@ public class HW2_Task5 {
         var text = sc.next();
         
         System.out.println("First way reversion");
-        HW2_Task5.reverseOne(text);
+        reverseOne(text);
 
         System.out.println("Second way reversion");
-        HW2_Task5.reverseTwo(text);
+        reverseTwo(text);
     }
 
     public static void reverseOne(String text) {

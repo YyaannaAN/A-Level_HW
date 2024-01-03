@@ -2,9 +2,9 @@ package org.example;
 
 public class HW2_Task3 {
     public static void main(String[] args) {
-        HW2_Task3.isEven(2);
-        HW2_Task3.isEven(3);
-        HW2_Task3.isEven(4);
+        isEven(2);
+        isEven(3);
+        isEven(4);
     }
 
     public static void isEven(int number) {
