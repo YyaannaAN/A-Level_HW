@@ -1,8 +1,8 @@
-package org.example;
+package ua.nezhura.hw2;
 
 import java.util.Scanner;
 
-public class HW2Task5 {
+public class Task5 {
 
 
     public static void main(String[] args) {

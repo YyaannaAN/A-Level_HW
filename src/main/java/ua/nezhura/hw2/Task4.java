@@ -1,6 +1,6 @@
-package org.example;
+package ua.nezhura.hw2;
 
-public class HW2Task4 {
+public class Task4 {
     public static void main(String[] args) {
         System.out.println(getAbsMin(-1, 5, -7));
         System.out.println(getAbsMin(1, 5, -7));

@@ -1,6 +1,6 @@
-package org.example;
+package ua.nezhura.hw2;
 
-public class HW2Task3 {
+public class Task3 {
     public static void main(String[] args) {
         isEven(2);
         isEven(3);
