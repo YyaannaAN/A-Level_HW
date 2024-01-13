@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="751065b4-1619-48b8-8d49-01b674355f37" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../HomeWork2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HomeWork2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HomeWork2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HomeWork2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HomeWork2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HomeWork2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HomeWork2/src/main/java/org/example/HW2_Task2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HomeWork2/src/main/java/org/example/HW2_Task3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HomeWork2/src/main/java/org/example/HW2_Task4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HomeWork2/src/main/java/org/example/HW2_Task5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HomeWorks/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HomeWorks/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HomeWorks/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HomeWorks/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HomeWorks/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HomeWorks/src/main/java/org/example/Task2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HomeWorks/src/main/java/org/example/Task3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../HomeWorks/src/main/java/org/example/Task4.java" beforeDir="false" />
-    </list>
+    <list default="true" id="751065b4-1619-48b8-8d49-01b674355f37" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,23 +10,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2aS83hO99f60NAk6ukJYftUTAyM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/yana/projects/A-Level_HW"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/yana/projects/A-Level_HW&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
