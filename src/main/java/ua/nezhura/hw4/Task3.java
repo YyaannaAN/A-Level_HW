@@ -26,8 +26,7 @@ public class Task3 {
     public static int[] evenNumbersReplace(int[] array) {
         int[] copy = Arrays.copyOf(array, array.length);
         for (int i = 0; i < copy.length; i++) {
-            int n = copy[i];
-            if (n % 2 == 0) {
+            if (copy[i] % 2 == 0) {
                 copy[i] = 0;
 
             }
