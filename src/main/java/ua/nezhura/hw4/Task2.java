@@ -42,7 +42,7 @@ public class Task2 {
         for (int i = 0; i < array.length; i++) {
             int n = array[i];
             boolean isPn = isPrimary(n);
-            if (isPn == true) {
+            if (isPn) {
                 count++;
             }
         }
