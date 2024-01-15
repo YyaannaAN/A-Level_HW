@@ -12,6 +12,6 @@ public class Task3 {
     }
 
     public static int countWords(String text) {
-        return text.split("\\s").length;
+        return text.trim().split("\\s+").length;
     }
 }
