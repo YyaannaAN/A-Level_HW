@@ -1,12 +1,11 @@
 package ua.nezhura.hw5;
 
 import java.util.Arrays;
-import java.util.concurrent.ThreadLocalRandom;
+
 
 public class Task2 {
 
     public static void main(String[] args) {
-        // int[] numbers = new int[10];
         int[] orderedNumbers = {97, 78, 67, 45, 24};
         int[] unOrderedNumbers = {56, 2, 98, 34, 17};
         //fill(numbers);
