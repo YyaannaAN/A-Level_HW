@@ -31,9 +31,9 @@ public class Task1 {
 
         for (int i = 0; i < matrix.length; i++) {
             int[] row = matrix[i];
+            isNegative = (i % 2) != 0;
             for (int j = 0; j < row.length; j++) {
                 count++;
-                isNegative = i == 1 || (i % 2) != 0;
                 if (isNegative) {
                     resultMatrix[i][j] = count * -1;
                 } else {
