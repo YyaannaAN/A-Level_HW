@@ -15,13 +15,9 @@ public class Task1Phone {
     public Task1Phone(int number, String model) {
         this.number = number;
         this.model = model;
-        this.weight = 32;
     }
 
     public Task1Phone() {
-        this.number = 13;
-        this.model = "Samsung";
-        this.weight = 33;
     }
 
     @Override
@@ -44,6 +40,10 @@ public class Task1Phone {
         Task1Phone phoneTwo = new Task1Phone(12, "Apple");
         Task1Phone phoneThree = new Task1Phone();
 
+        phoneTwo.weight = 32;
+        phoneThree.number = 13;
+        phoneThree.model = "Samsung";
+        phoneThree.weight = 33;
 
         System.out.println("phoneOne: " + phoneOne.toString());
         System.out.println("phoneTwo: " + phoneTwo.toString());
