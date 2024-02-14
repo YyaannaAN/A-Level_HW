@@ -19,51 +19,46 @@ public class Task3 {
 
     }
 
+    public static void fillArray(List<Integer> list) {
+        for (int i = 0; i < 1000000; i++) {
+            list.add(i);
+        }
+    }
+
     public static long countTimeForAddElementsToArrayList() {
         List<Integer> arrayList = new ArrayList<>();
-        long startTime = System.currentTimeMillis();
-        for (int i = 0; i < 1000000; i++) {
-            arrayList.add(i);
-        }
-        long endTime = System.currentTimeMillis();
-        return (endTime - startTime);
+        return countTimeForAddElementsToList(arrayList);
     }
 
     public static long countTimeForAddElementsToLinkedList() {
         List<Integer> linkedList = new LinkedList<>();
+        return countTimeForAddElementsToList(linkedList);
+    }
+
+    public static long countTimeForAddElementsToList(List<Integer> list) {
         long startTime = System.currentTimeMillis();
-        for (int i = 0; i < 1000000; i++) {
-            linkedList.add(i);
-        }
+        fillArray(list);
         long endTime = System.currentTimeMillis();
         return (endTime - startTime);
     }
 
     public static long countTimeForGetRandomElementsFromArrayList() {
         List<Integer> arrayList = new ArrayList<>();
-        for (int i = 0; i < 1000000; i++) {
-            arrayList.add(i);
-        }
-        long startTime = System.currentTimeMillis();
-        Random random = new Random();
-        for (int i = 0; i < 1000000; i++) {
-            int randomIndex = random.nextInt(arrayList.size());
-            arrayList.get(randomIndex);
-        }
-        long endTime = System.currentTimeMillis();
-        return (endTime - startTime);
+        return countTimeForGetElementFromList(arrayList);
     }
 
     public static long countTimeForGetRandomElementsFromLinkedList() {
         List<Integer> linkedList = new LinkedList<>();
-        for (int i = 0; i < 1000000; i++) {
-            linkedList.add(i);
-        }
+        return countTimeForGetElementFromList(linkedList);
+    }
+
+    public static long countTimeForGetElementFromList(List<Integer> list) {
+        fillArray(list);
         long startTime = System.currentTimeMillis();
         Random random = new Random();
         for (int i = 0; i < 1000000; i++) {
-            int randomIndex = random.nextInt(linkedList.size());
-            linkedList.get(randomIndex);
+            int randomIndex = random.nextInt(list.size());
+            list.get(randomIndex);
         }
         long endTime = System.currentTimeMillis();
         return (endTime - startTime);
